@@ -268,7 +268,7 @@
   </tr>
   <tr>
     <td colspan="2">همگام سازی با تبچی</td>
-    <td align="center">به <a href="https://telegram.me/i_advertiser/7">آموزش</a> موجود در کانال سر بزنید..</td>
+    <td align="center">به <a href="soroushwilson">آموزش</a> موجود در کانال سر بزنید..</td>
   </tr>
 </table>
 <h6 dir="rtl">اساس کار تبلیغ‌گر تشخیص لینک و عضویت در هر گروه‌ها و پیروی از دستورات تعیین شده است.</h6>
