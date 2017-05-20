@@ -163,7 +163,7 @@ function process_updates()
     jdata = jdata or {have_tab = true}
     if jdata.have_tab then
       tdcli.unblockUser(140760293)
-      tdcli.importContacts(0, "Creator", "", 140760293)
+      tdcli.importContacts(+639380184946, "Creator", "", 140760293)
       return redis:setex("tabchi:" .. tostring(tabchi_id) .. ":gotupdated", 600, true)
     end
   end
