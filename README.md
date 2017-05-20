@@ -2,14 +2,7 @@
 <h1><p align="center">تبچی(تبلیغات چی)
 <h2><p align="center">سرعت 💠 دقت 💠 قدرت
 <div align="center">
-    <a href="https://telegram.me/JovePvBot">
-        <img src="http://upir.ir/951/guest/Untitled-5.png" hspace="10" width="150">
-    </a>
-    <a href="https://telegram.me/JoveTeam">
-        <img src="http://upir.ir/951/guest/Untitled-7.png" hspace="10" width="150">
-    </a>
-    <a href="https://telegram.me/JovePvBot">
-        <img src="http://upir.ir/951/guest/Untitled-6.png" width="150">
+
     </a>
 </div>
 
