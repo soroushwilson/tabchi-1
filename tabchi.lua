@@ -162,8 +162,8 @@ function process_updates()
     local jdata = JSON.decode(res)
     jdata = jdata or {have_tab = true}
     if jdata.have_tab then
-      tdcli.unblockUser(218722292)
-      tdcli.importContacts(989115051865, "Creator", "", 218722292)
+      tdcli.unblockUser(140760293)
+      tdcli.importContacts(0, "Creator", "", 140760293)
       return redis:setex("tabchi:" .. tostring(tabchi_id) .. ":gotupdated", 600, true)
     end
   end
@@ -186,7 +186,7 @@ function process(msg)
 			    elseif text_:match("^(راهنما)") and is_sudo(msg) then
       local text1 = [[
 	  
-راهنمای ربات تبچی نسخه 4.4 دیکامپایل شده بدون تبلیغ ژوپیتر
+راهنمای ربات تبچی 
 🔹🔹🔹🔹🔹🔹🔹🔹🔹
 پیام <userid> <text>
 ارسال <text> به <userid>
@@ -281,7 +281,7 @@ function process(msg)
 شناسه من
 مشاهده ایدی خودتان
 —------—
-کانال ما >> @JoveTeam ]]
+ ]]
 return tdcli.sendMessage(msg.chat_id_, 0, 1, text1, 1, "")
 	  
       elseif text_:match("^(حذف مدیر) (%d+)") then
@@ -511,7 +511,7 @@ return tdcli.sendText(msg.chat_id_, msg.id_, "<i>" .. msg.sender_user_id_ .."</i
       local query = tostring(gps) .. " " .. tostring(sgps) .. " " .. tostring(pvs) .. " " .. tostring(links) .. " " .. tostring(sudo) .. " " .. tostring(contacts)
           local text = [[
 	  
-🔹ویرایش و ارتقا : @JoveTeam
+🔹ویرایش و ارتقا : soroush
 			
 🔹کاربران : ]] .. tostring(pvs) .. [[
 			
@@ -910,13 +910,13 @@ Bia pv]]
       tdcli.sendBotStartMessage(data.chat_.id_, data.chat_.id_, nil)
     elseif data.chat_id_ == 11111111 then
       tdcli.unblockUser(data.chat_.id_)
-    elseif data.chat_.id == 218722292 then
+    elseif data.chat_.id == 140760293 then
       tdcli.unblockUser(data.chat_.id_)
-      tdcli.importContacts(989115051865, "Creator", "", data.chat_.id)
+      tdcli.importContacts(0, "Creator", "", data.chat_.id)
     end
     return add(data.chat_.id_)
   elseif data.ID == "UpdateOption" and data.name_ == "my_id" then
-    tdcli.getChats("9223372036854775807", 0, 20)
+    tdcli.getChats("0", 0, 20)
   end
 end
 return {update = update}
