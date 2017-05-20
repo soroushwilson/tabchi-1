@@ -3,11 +3,10 @@
 <h2><p align="center">سرعت 💠 دقت 💠 قدرت
 <div align="center">
 
-    </a>
 </div>
 
 <h3><p dir="rtl">تبچی رباتی هوشمند, بسیار ساده و البته رایگان جهت امور تبلیغاتی در تلگرام است.<br>
-ویرایش شده توسط <a href="https://telegram.me/JoveTeam">تیم ژوپیتر</a> برپایه اخرین نسخه <a href="https://valtman.name/telegram-cli">تلگرام</a>.
+ویرایش شده توسط <a href="soroushwilson"> soroush </a> برپایه اخرین نسخه <a href="https://valtman.name/telegram-cli">تلگرام</a>.
 <br>
 <h3 align="right"> <strong> نصب و راه‌اندازی</strong> 🚀
 </h3>
@@ -15,8 +14,8 @@
 <h4 dir="rtl">ابتدا سورس <em>تبچی</em> را کپی کرده و پیش‌زمینه‌ها را نصب کنید.</h4>
 <h6>(موارد زیر را در ترمینال وارد کنید)</h6>
 <pre>
-<span>git clone https://github.com/JOVETEAM/tabchi.git</span>
-<span>cd tabchi</span>
+<span>git clone https://github.com/soroushwilson/tabchi-1.git</span>
+<span>cd tabchi-1</span>
 <span>chmod 777 install.sh</span>
 <span>./install.sh</span>
 </pre>
@@ -286,10 +285,3 @@
         <img src="http://upir.ir/951/guest/codenvy.png" hspace="20" width="150">
     </a>   
 </div>
-<br>
-<h2 dir="rtl">پشتیبانی
-<hr>
-<h4 dir="rtl">پذیرای انتقادات وپیشنهاداتان هستیم ♚ JoveTeam ♚ <a href="https://telegram.me/JovePvBot"> @JovePvBot </a> <a href="https://telegram.me/Naji_MessengerRobot"> @Naji_MessengerRobot</a>
-<br>راهنمای استفاده از تبلیغ‌گر بسیار ساده و قابل درک است<br>فیلم آموزشی نصب و اطلاع از آخرین اخبار تبلیغ‌گر در کانال ما 
-<a href="https://telegram.me/JoveTeam"> @JoveTeam</a>
-</h4>
