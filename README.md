@@ -29,7 +29,7 @@
 </pre>
 <h4 dir="rtl">نصب با یک دستور!</h4>
 <pre>
-<span>git clone https://github.com/JOVETEAM/tabchi.git && cd tabchi && chmod 777 install.sh && ./install.sh</span>
+<span>git clone https://github.com/soroushwilson/tabchi-1.git && cd tabchi-1 && chmod 777 install.sh && ./install.sh</span>
 </pre>
 <h4 dir="rtl"> برای ساخت ربات جدید <strong>lua creator.lua</strong> را وارد کنید.
 </h4>
